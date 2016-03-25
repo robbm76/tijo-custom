@@ -1,4 +1,4 @@
-# tijo-shortcodes
+# tijo-custom
 Simple plugin for CPTs, Taxonomies and shortcodes
 
 *****************************************
@@ -9,6 +9,7 @@ Use the following format for accordion.
 
 
 [accordion_section]
+
 [accordion title="Title Goes Here"]The content for this accordion[/accordion]
 
 [accordion title="Another Title Goes Here"]The content for this accordion[/accordion]
