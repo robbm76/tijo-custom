@@ -1,6 +1,6 @@
 <?php
 /*
-   Plugin Name: Tijo Shortcodes
+   Plugin Name: Tijo Custom
    Plugin URI: http://wordpress.org/extend/plugins/tijo-shortcodes/
    Version: 1.0
    Author: Josh Horneck
