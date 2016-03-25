@@ -3,8 +3,6 @@
 * shortcodes
 ***********************************************************************************/
 
-<<<<<<< HEAD
-=======
 /* accordion
 ----------------------------------*/
 
@@ -45,7 +43,6 @@ function accordion_shortcode_section( $atts, $content = 'null' ) {
   return $gb_accordion_section;
 }
 
->>>>>>> accordion
 /* column classes
 ----------------------------------*/
 function tijo_genesis_column_shortcode( $atts, $content = 'null' ) {
