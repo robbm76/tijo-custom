@@ -64,3 +64,15 @@ function tijo_genesis_column_shortcode( $atts, $content = 'null' ) {
 }
 
 add_shortcode( 'col', 'tijo_genesis_column_shortcode' );
+
+/* button
+----------------------------------*/
+function tijo_button($atts, $content = null) {
+  extract( shortcode_atts( array(
+          'link' => '#',
+          'color' => ''
+  ), $atts ) );
+
+return '<a href="'.$link.'" class="button '.$color.'"><span>' . do_shortcode($content) . '</span></a>';
+}
+add_shortcode('button', 'tijo_button');
