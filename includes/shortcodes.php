@@ -70,9 +70,10 @@ add_shortcode( 'col', 'tijo_genesis_column_shortcode' );
 function tijo_button($atts, $content = null) {
   extract( shortcode_atts( array(
           'link' => '#',
-          'color' => ''
+          'color' => '',
+          'size' => ''
   ), $atts ) );
 
-return '<a href="'.$link.'" class="button '.$color.'"><span>' . do_shortcode($content) . '</span></a>';
+return '<a href="'.$link.'" class="button '.$color.' '.$size.'"><span>' . do_shortcode($content) . '</span></a>';
 }
 add_shortcode('button', 'tijo_button');
